@@ -1,2 +1,5 @@
-# used_iphone_price_prediction
-Gives recommendation for iPhone resale price
+# IPhone Resale Tool
+
+Description: Gives recommendation for iPhone resale price
+
+Data Souce: Webscraped Swappa.com

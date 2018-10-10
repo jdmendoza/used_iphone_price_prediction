@@ -4,4 +4,4 @@
 
 **Solution**: I webscraped data for recently sold iPhones (Oct 3-6) and trained an ML algorithm to predict a suggested price.
 
-**Results**: My algorithm predicts with an avereage error of $34, a great baseline!
+**Results**: My algorithm predicts with an average error of $34, a great baseline!

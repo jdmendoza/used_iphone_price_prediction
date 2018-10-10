@@ -1,12 +1,24 @@
 <head>
 </head>
 
-<h1> iPhone Specifications:</h1>
-<body>
+<h1>What is your iPhone worth?</h1>
+<br>
+<h2> Your iPhone Specifications:</h2>
+<body bgcolor="#009933">
   <p>Phone Model: {{session['Phone Model']}}</p>
-  <p>Carrier: {{session['Carrier']}}</p>
-  <p>Color: {{session['Color']}}</p>
   <p>Condition: {{session['Condition']}}</p>
   <p>Size: {{session['Size']}}</>
-  <h2>Approximate Value: {{prediction}} </h2>
+  <h2>Approximate Value: {{prediction}} </h3>
+<br>
+  <div id = 'linkdiv'>
+      <a href="https://swappa.com/"> Sell Your Phone Here!</a>
+  </div>
+<br>
+  <button onclick="goBack()">Go Back</button>
+
+  <script>
+  function goBack() {
+      window.history.back();
+  }
+  </script>
 </body>

@@ -1,24 +1,22 @@
 <head>
 </head>
 
-<h1>iPhone Value Prediction</h1>
+<body bgcolor="#009933">
+  <h1>What is your iPhone worth?</h1>
 <br>
-<p>This webpage is an example of using machine learning for prediction. <br>
-</p>
+  <p>This webpage is an example of using machine learning for prediction. <br>
+  </p>
 <br>
-<form  method="POST">
-    {# This hidden_tag is a CSRF security feature. #}
-    {{ form.hidden_tag() }}
-    {{ form.phone_model.label}}<br>{{form.phone_model}}
-    <br>
-      {{form.carrier.label}}<br>{{form.carrier}}
-    <br>
-      {{form.color.label}} <br> {{form.color}}
-    <br>
-      {{form.condition.label}}<br>{{form.condition}}
-    <br>
-      {{form.size.label}}<br>{{form.size}}
-    <br>
-    <br>
-      {{ form.submit() }}
-</form>
+  <form  method="POST">
+      {# This hidden_tag is a CSRF security feature. #}
+      {{ form.hidden_tag() }}
+      {{ form.phone_model.label}}<br>{{form.phone_model}}
+      <br>
+        {{form.condition.label}}<br>{{form.condition}}
+      <br>
+        {{form.size.label}}<br>{{form.size}}
+      <br>
+      <br>
+        {{ form.submit() }}
+  </form>
+</body>

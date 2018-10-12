@@ -13,9 +13,13 @@ Link To Presentation: [Here](https://www.dropbox.com/s/0b8la41us2man16/iPhone_Va
 ### Data Analysis + Modeling
 
 1*) Run the 1_Scrape_Iphone_Data.ipynb to automatically scrape iPhone data.
+
 2*) Run the data_files_merging/merg_dataframes.py to merge into one file (make sure to only have )
+
 3) Run 2_Data_Visualization_Cleaning.ipynb to visualize the data and see the
+
 4) Run 2.5_Data_Feature_Selection.ipynb to select the most import features
+
 5) Run 3_Modeling_Data.ipynb for Model Experimentation and for final mode + predicting function.
 
 /* Steps with an asterik can be skipped as the data is local.

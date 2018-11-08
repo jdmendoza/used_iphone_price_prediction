@@ -1,6 +1,7 @@
 # Used IPhone Valuation Tool
 
 Link To Presentation: [Here](https://www.dropbox.com/s/0b8la41us2man16/iPhone_Valuation_Tool.pdf?dl=0)
+Link To Medium Post : [Here](https://medium.com/@jdannym93/automatically-price-your-used-iphone-2a83bb9eac30)
 
 **Problem**: Selling a used phone is annoying. It's hard to figure out marketprice. You don't want to overprice it and never have it be sold; nor do you want to price it low and lose out on potential profit for you next awesome phone.
 
